@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class Calculator {
+@FunctionalInterface
+public interface Calculator {
+    double calculate(double a, double b);
 }
